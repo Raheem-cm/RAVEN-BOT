@@ -97,7 +97,7 @@ module.exports = raven = async (client, m, chatUpdate, store) => {
      const groupAdmin = m.isGroup ? await getGroupAdmins(participants) : ""; 
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : false;
-     const Dev = '254114660061'.split(",");
+     const Dev = 255763111390'.split(",");
      const date = new Date()  
      const timestamp = speed(); 
      const Rspeed = speed() - timestamp 
@@ -157,7 +157,7 @@ async function handleMessageRevocation(client, revocationMessage) {
     const deletedByFormatted = `@${deletedBy.split('@')[0]}`;
     const sentByFormatted = `@${sentBy.split('@')[0]}`;
 
-    let notificationText = `░𝗥𝗔𝗩𝗘𝗡 𝗔𝗡𝗧𝗜𝗗𝗘𝗟𝗘𝗧𝗘 𝗥𝗘𝗣𝗢𝗥𝗧░\n\n` +
+    let notificationText = `░RAHEEM 𝗔𝗡𝗧𝗜𝗗𝗘𝗟𝗘𝗧𝗘 𝗥𝗘𝗣𝗢𝗥𝗧░\n\n` +
       ` 𝗗𝗲𝗹𝗲𝘁𝗲𝗱 𝗯𝘆: ${deletedByFormatted}\n\n`;
 
 try {
@@ -217,7 +217,7 @@ contextInfo: {
           externalAdReply: {
           title: notificationText,
           body: `𝗗𝗘𝗟𝗘𝗧𝗘𝗗 𝗕𝗬: ${deletedByFormatted}`,
-          thumbnailUrl: "https://files.catbox.moe/7f98vp.jpg",
+          thumbnailUrl: "https://files.catbox.moe/0gkfv4.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: false
@@ -238,7 +238,7 @@ contextInfo: {
           externalAdReply: {
           title: notificationText,
           body: `𝗗𝗘𝗟𝗘𝗧𝗘𝗗 𝗕𝗬: ${deletedByFormatted}`,
-          thumbnailUrl: "https://files.catbox.moe/7f98vp.jpg",
+          thumbnailUrl: "https://files.catbox.moe/0gkfv4.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: false
@@ -255,7 +255,7 @@ contextInfo: {
           externalAdReply: {
           title: notificationText,
           body: `𝗗𝗘𝗟𝗘𝗧𝗘𝗗 𝗕𝗬: ${deletedByFormatted}`,
-          thumbnailUrl: "https://files.catbox.moe/7f98vp.jpg",
+          thumbnailUrl: "https://files.catbox.moe/0gkfv4.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: false
@@ -335,7 +335,7 @@ return (ramm)
 }  
 //========================================================================================================================//   
 const totalcmds = () => {
-   var mytext = fs.readFileSync("./action/raven.js").toString();
+   var mytext = fs.readFileSync("./action/raheem.js").toString();
     var numUpper = (mytext.match(/case ['"]/g) || []).length;
     return numUpper;
 }	  
@@ -402,7 +402,7 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 	  }
 //========================================================================================================================//	  
 	  const getGreeting = () => {
-            const currentHour = DateTime.now().setZone('Africa/Nairobi').hour;
+            const currentHour = DateTime.now().setZone('Africa/Dar es Salaam').hour;
 
             if (currentHour >= 5 && currentHour < 12) {
                 return '𝗚𝗼𝗼𝗱 𝗠𝗼𝗿𝗻𝗶𝗻𝗴 🌅';
@@ -417,7 +417,7 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 //========================================================================================================================//
 //========================================================================================================================//
         const getCurrentTimeInNairobi = () => {
-            return DateTime.now().setZone('Africa/Nairobi').toLocaleString(DateTime.TIME_SIMPLE);
+            return DateTime.now().setZone('Africa/Dar es Salaam').toLocaleString(DateTime.TIME_SIMPLE);
         };
 //========================================================================================================================//	
 if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b' + badword.join('\\b|\\b') + '\\b')).test(body.toLowerCase())) {
@@ -463,7 +463,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
   //========================================================================================================================//
   //========================================================================================================================//
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ RAVEN-BOT ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ RAHEEM-CMD ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -483,14 +483,14 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
         case "menu":
 	  await mp3d ()
 		      
-let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╔══════〚 𝗥𝗔𝗩𝗘𝗡  𝗕𝗢𝗧 〛══════╗
+let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╔══════〚 RAHEEM-CMD 〛══════╗
 ║✫╭═╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 ║✫┃ 𝗨𝘀𝗲𝗿 : ${m.pushName}
 ║✫┃ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${prefix}
 ║✫┃ 𝗠𝗼𝗱𝗲 : ${mode}
 ║✫┃ 𝗧𝗰𝗺𝗱𝘀 : ${totalcmds()}
 ║✫┃ 𝗦𝗽𝗲𝗲𝗱 :   ${Rspeed.toFixed(4)} 𝗠𝘀
-║✫┃ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInNairobi()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}
+║✫┃ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInNairobi()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Dar es Salaam'})}
 ║✫┃ 𝗥𝗔𝗠 𝗨𝘀𝗮𝗴𝗲 :  ${ram()}
 ║✫┃═════════════════════
 ║✫┃  █■█■█■█■█■█■█■█■█■█
@@ -558,7 +558,7 @@ let cap = `𝗛𝗲𝘆 𝘁𝗵𝗲𝗿𝗲😁, ${getGreeting()}\n\n╔══�
 ┃◈│ 𝗔𝗶2
 ┃◈│ 𝗩𝗶𝘀𝗶𝗼𝗻
 ┃◈│ 𝗗𝗲𝗳𝗶𝗻𝗲
-┃◈│ 𝗥𝗮𝘃𝗲𝗻
+┃◈│ Raheem
 ┃◈│ 𝗚𝗲𝗺𝗶𝗻𝗶
 ┃◈│ 𝗚𝗼𝗼𝗴𝗹𝗲
 ┃◈│ 𝗚𝗽𝘁
@@ -744,10 +744,10 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧`,
+                                title: `RAHEEM-CMD`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./Media/Raven.jpg'),
-                                sourceUrl: 'https://wa.me/254114660061?text=Hello+Raven+dev+I+need+a+bot',
+                                sourceUrl: 'https://wa.me/255763111390?text=Hello+Raheem+dev+I+need+a+bot',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -778,7 +778,7 @@ break;
 if (!Owner) return reply('Only owner')
 if (!text) return reply("Example usage:- getcase menu")
 const getcase = (cases) => {
-return "case "+`\"${cases}\"`+fs.readFileSync('./action/raven.js').toString().split('case \"'+cases+'\"')[1].split("break")[0]+"break"
+return "case "+`\"${cases}\"`+fs.readFileSync('./action/raheem.js').toString().split('case \"'+cases+'\"')[1].split("break")[0]+"break"
 }
 try {
 reply(`${getcase(q)}`)
@@ -869,7 +869,7 @@ case 'quran': {
 		      
 //========================================================================================================================//	
 case "pair": case "rent": {
-if (!q) return await reply("Please provide valid Whatsapp number  Example- pair 2541146XXX");
+if (!q) return await reply("Please provide valid Whatsapp number  Example- pair 255763111XXX");
 
 	try {	
 const numbers = q.split(',') .map((v) => v.replace(/[^0-9]/g, '')) 
@@ -1017,7 +1017,7 @@ m.reply("_Please wait your download is in progress_");
       await client.sendMessage(from, {
         video: { url: mp4Data.downloadLink },
         mimetype: 'video/mp4',
-        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+        caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 RAHEEM-CMD",
       }, { quoted: m });
     } catch (error) {
       console.error('Error:', error);
@@ -1052,7 +1052,7 @@ m.reply("_Please wait your download is in progress_");
         {
           video: { url: videoData.downloadUrl },
           mimetype: "video/mp4",
-          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+          caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 RAHEEM-CMD",
         },
         { quoted: m }
       );
@@ -1082,7 +1082,7 @@ m.reply("_Please wait your download is in progress_");
                     `https://api.heroku.com/apps/${appname}/builds`,
                     {
                         source_blob: {
-                            url: "https://github.com/HunterNick2/RAVEN-BOT/tarball/main",
+                            url: "https://github.com/Raheem-cm/RAHEEM-CMD/tarball/main",
                         },
                     },
                     {
@@ -1109,7 +1109,7 @@ m.reply("_Please wait your download is in progress_");
 //========================================================================================================================//		      
 		      case "credits": 
   
-              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/duv8ac.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/HunterNick2\n\n - Keithkeizzah (Ghost) ➪ Kenya\n - For several command addition and bug fixing\nhttps://github.com/Keithkeizzah\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧`}, { quoted: m}); 
+              client.sendMessage(m.chat, { image: { url: 'https://files.catbox.moe/0gkfv4.jpg' }, caption: `We express sincere gratitude and acknowledgement to the following:\n\n -Dika Ardnt ➪ Indonesia\n - Writing the base code using case method\nhttps://github.com/DikaArdnt\n\n -Adiwajshing ➪ India\n - Writing and Coding the bot's library (baileys)\nhttps://github.com/WhiskeySockets/Baileys\n\n -WAWebSockets Discord Server community\n-Maintaining and reverse engineering the Web Sockets\nhttps://discord.gg/WeJM5FP9GG\n\n - Nick Hunter ➪ Kenya\n - Actively compiling and debugging parts of this bot script\nhttps://github.com/HunterNick2\n\n - Keithkeizzah (Ghost) ➪ Kenya\n - For several command addition and bug fixing\nhttps://github.com/Keithkeizzah\n\n - Fortunatus Mokaya ➪ Kenya\n - Founder of the bot Base\nhttps://github.com/Fortunatusmokaya\n\n𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧`}, { quoted: m}); 
                
 		      break;
 
@@ -1178,7 +1178,7 @@ await client.sendMessage(
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+		  caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 RAHEEM-CMD",
                   fileName: outputFileName,
                 },
                 { quoted: m }
@@ -1228,7 +1228,7 @@ try {
     await client.sendMessage(m.chat, {
       document: { url: downloadResult.downloadUrl },
       mimetype: "audio/mp3",
-      caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 𝗥𝗔𝗩𝗘𝗡-𝗕𝗢𝗧",
+      caption: "𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 RABEEM-CMD",
       fileName: `${result.title.replace(/[^a-zA-Z0-9 ]/g, "")}.mp3`,
       }, { quoted: m });
  
@@ -1331,7 +1331,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a9n6e5.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0x180d0734) {
     m.reply(_0x180d0734);
@@ -1352,7 +1352,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x295.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0x180d) {
     m.reply(_0x180d);
@@ -1373,7 +1373,7 @@ const cheerio = require('cheerio');
       image: {
         url: _029a96e5.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0180d034) {
     m.reply(_0180d034);
@@ -1394,7 +1394,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a96em5.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0x18d034) {
     m.reply(_0x18d034);
@@ -1416,7 +1416,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunte.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     }, {
       quoted: m
     });
@@ -1440,7 +1440,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunterr.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     }, {
       quoted: m
     });
@@ -1464,7 +1464,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunteer.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     }, {
       quoted: m
     });
@@ -1487,7 +1487,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunteqr.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     }, {
       quoted: m
     });
@@ -1510,7 +1510,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a96e5.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0x180d034) {
     m.reply(_0x180d034);
@@ -1531,7 +1531,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x2996e.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0x180d3) {
     m.reply(_0x180d3);
@@ -1552,7 +1552,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x9a96e.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0x80d03) {
     m.reply(_0x80d03);
@@ -1573,7 +1573,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a996e.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0x180d063) {
     m.reply(_0x180d063);
@@ -1594,7 +1594,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a96e.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0x180d03) {
     m.reply(_0x180d03);
@@ -1615,7 +1615,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a96.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     });
   } catch (_0x180d0) {
     m.reply(_0x180d0);
@@ -1626,7 +1626,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	case 'leaves': {		     
 		      if (!text || text == "") {
-      m.reply("Example Usage : " + prefix + "Leaves RAVEN-BOT");
+      m.reply("Example Usage : " + prefix + "Leaves RAHEEM-CMD");
       return;
     }
 	try {
@@ -1636,7 +1636,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x14192dl.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     }, {
       quoted: m
     });
@@ -1682,7 +1682,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x14192d.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     }, {
       quoted: m
     });
@@ -1705,7 +1705,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x4086bb.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     }, {
       quoted: m
     });
@@ -1718,7 +1718,7 @@ m.reply("*Wait a moment...*");
 //========================================================================================================================//		      
 	      case 'sand': {	 
 		      if (!text || text == "") {
-    m.reply("Example Usage : " + prefix + "sand Raven");
+    m.reply("Example Usage : " + prefix + "sand Raheem");
     return;
   }
   try {
@@ -1728,7 +1728,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x4959e5.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEEM-CMD`
     }, {
       quoted: m
     });
@@ -1751,7 +1751,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x26f3ed.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     }, {
       quoted: m
     });
@@ -1774,7 +1774,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x357389.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CMD`
     }, {
       quoted: m
     });
@@ -1797,7 +1797,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x57ef84.image
       },
-      caption: `GENERATED BY RAVEN-BOT`
+      caption: `GENERATED BY RAHEEM-CM`
     }, {
       quoted: m
     });
